@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="card" id="div">
+        <div class="search">
+            <input type="text" placeholder="Search" class="search-bar">
+            <div class="search-button"
+                style="margin: 0.5rem; border-radius: 50%; border: none; height: 2.5rem; width: 2.5rem; outline: none;">
+                <img class="search-icon" src="./icon.svg" alt="">
+            </div>
+        </div>
+        <div class="weather">
+            <h2 class="city">Weather in ...</h2>
+            <h1 class="temp">...</h1>
+            <div style="display: flex; align-items: center;" class="row">
+                <div class="description">Not found</div>
+                <img src="" class="icon" alt="">
+            </div>
+            <div class="humidity" style="margin-bottom: 10px;">HumaDity: ...%</div>
+            <div class="wind">Wind speed: ...km/h</div>
+        </div>
+        <button class="Button" onclick="myFunction()">Bos</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
